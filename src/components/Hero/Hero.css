@@ -2,7 +2,6 @@
   color: white;
   position: relative;
   padding-bottom: 2rem;
-  background-color: var(--black);
 }
 .hero-container {
     justify-content: space-between;
@@ -30,6 +29,28 @@
     right: 28%;
     top: -10%;
     z-index: -1;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120,120,120,0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+.search-bar>input{
+    border: none;
+    outline: none;
+}
+.stats{
+    width: 100%;
+    justify-content: space-between;
+}
+.stat>:nth-child(1){
+    font-size: 2rem;
+}
+.stat>:nth-child(1)>:last-child{
+    color: orange;
 }
 
 /* right side */
