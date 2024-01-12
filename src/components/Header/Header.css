@@ -1,5 +1,6 @@
 .h-wrapper {
   color: white;
+  z-index: 99;
 }
 .h-container {
   justify-content: space-between;
@@ -21,6 +22,7 @@
     display: block;
   }
   .h-menu{
+    z-index: 99;
     color: var(--black);
     position: absolute;
     top: 3rem;
