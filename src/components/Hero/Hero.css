@@ -86,7 +86,12 @@
   .hero-right {
     width: 100%;
   }
-
-
+  .search-bar{
+    height: 60px;
+    justify-content: center;
+  }
+  .search-bar > input{
+    padding: 10px 0 0 0;
+  }
  
 }
